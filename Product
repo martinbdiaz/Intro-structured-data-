@@ -1,0 +1,48 @@
+<script type="application/ld+json">
+	{
+    "@context": "https://schema.org/",
+    "@type": "WebPage",
+    "name": "CHAQUETA CUERO BOGOTA COLOMBIA MEDELLIN CHAQUETAS ",
+    "description": "CHAQUETA CUERO BOGOTA COLOMBIA MEDELLIN CHAQUETAS",
+		"mainEntity": 
+		{
+			"@type": "Product",
+			"@id": "https://www.mabdweb.com/productos/chaqueta-en-cuero-envejecido-abiman-negro-beige-marca-la-chaqueteria/",
+			"name": "Chaqueta En Cuero Envejecido Abiman Negro - Beige",
+			"image": "https://d26lpennugtm8s.cloudfront.net/stores/008/632/products/abiman-begro-base-beige-21-dc242e9f9b60e988ac14806903463320-480-0.jpg",
+			"description": "CHAQUETA CUERO BOGOTA COLOMBIA MEDELLIN CHAQUETAS ",
+			"sku": "2",
+			"brand": 
+			{
+				"@type": "Thing",
+				"name": "LA CHAQUETERIA"
+			},
+			"weight": 
+			{
+				"@type": "QuantitativeValue", 
+				"unitCode": "KGM", 
+				"value": "1.0000"
+			},
+			"offers": 
+			{
+				"@type": "Offer",
+				"itemCondition": "https://schema.org/UsedCondition", 
+				"url": "https://www.mabdweb.com/productos/chaqueta-en-cuero-envejecido-abiman-negro-beige-marca-la-chaqueteria/",
+				"priceCurrency": "COP",
+				"price": "560000",
+				"availability": "http://schema.org/OutOfStock",
+				"availability": "http://schema.org/InStock", 
+				"inventoryLevel": 
+				{
+					"@type": "QuantitativeValue", 
+					"value": "0"
+				},
+				"seller": 
+				{
+					"@type": "Organization", 
+					"name": "mabdweb"
+				}
+			}
+		}
+  }
+</script>
