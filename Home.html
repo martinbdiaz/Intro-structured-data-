@@ -1,5 +1,6 @@
 <script type="application/ld+json" class="yoast-schema-graph">
 	{
+	
 		"@context":"https://schema.org",
 		"@graph":
 		[
@@ -9,12 +10,12 @@
 				"name":"MABDWEB",
 				"url":"https://www.mabdweb.com/",
 				"sameAs":[
-						"https://www.facebook.com/mabdweb",
-            "https://www.instagram.com/mabdweb",
-            "https://www.youtube.com/user/mabdweb",
-            "https://www.pinterest.es/mabdweb"
-						"https://www.linkedin.com/in/martinbdiaz"
-						],
+					"https://www.facebook.com/mabdweb",
+					"https://www.instagram.com/mabdweb",
+					"https://www.youtube.com/user/mabdweb",
+					"https://www.pinterest.es/mabdweb"
+					"https://www.linkedin.com/in/martinbdiaz"
+				],
 				"logo":{
 					"@type":"ImageObject", 
 						"@id":"https://www.mabdweb.com/#logo",
@@ -23,7 +24,7 @@
 						"caption":"Logo MABDWEB"
 					},
 				"image":{"@id":"https://www.mabdweb.com/#logo"}
-				},
+			},    
 			{
 				"@type":"WebSite",
 				"@id":"https://www.mabdweb.com/#website",
@@ -31,13 +32,14 @@
 				"name":"MABDWEB",
 				"description":"MABDWEB: Sitio web, servicios de SEO profesional, desarrollo web, creación sitios web en VTEX y SHOPIFY",
 				"publisher":{"@id":"https://www.mabdweb.com/#organization"},
-				"potentialAction":[
-					{
-						"@type":"SearchAction",
-						"target":"https://www.mabdweb.com/?s={search_term_string}",
-						"query-input":"required name=search_term_string"
-					}
-				],
+				"potentialAction": {
+					"@type":"SearchAction",
+					"target": {
+					  "@type": "EntryPoint",
+					  "urlTemplate": "https://query.example.com/search?q={search_term_string}"
+					},
+					"query-input": "required name=search_term_string"
+				},
 				"inLanguage":"es-CO"				
 			},
 			{
